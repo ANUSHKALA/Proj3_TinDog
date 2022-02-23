@@ -1,12 +1,34 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+}
 #container-fluid {
-      padding: 3% 15%;  
+  padding: 3% 15%;
 }
 #title {
-    background-color: rgb(241, 10, 87);
+  background-color: rgb(241, 10, 87);
+  padding-bottom: 300px;
 }
-.h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900px;
-    font-size: 3rem;
-    line-height: 1.5;
+.navbar-brand {
+    font-size: 2rem;
 }
+#h1 {
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900rem;
+  font-size: 5rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+#android {
+  height: 30px;
+}
+#apple {
+  height: 30px;
+}
+#navbar {
+  font-size: 2rem;
+}
+.carousel {
+    position: absolute;
+    top: 650px;
+    transform: rotate(30deg);}
