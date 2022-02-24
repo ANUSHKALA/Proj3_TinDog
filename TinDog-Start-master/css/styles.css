@@ -40,8 +40,8 @@
 .feature-box {
     text-align: center;
     padding: 6%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat-bold", sans-serif;
 }
-#head {
-    font-weight: 300;
+.head {
+  font-weight : 900;
 }
