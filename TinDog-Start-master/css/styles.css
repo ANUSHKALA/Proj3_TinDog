@@ -28,9 +28,11 @@
 #navbar {
   font-size: 2rem;
 }
-.carousel {
-    width: 50%;
-    bottom: 1px;
+.dog-image {
+    height: 80%;
+    left: 40%;
+    position: relative;
+    top: 25%;
     transform: rotate(25deg);
 }
 #features{
@@ -45,3 +47,38 @@
 .head {
   font-weight : 900;
 }
+.icon {
+  color: #ef8176;
+  margin-bottom: 20px;
+}
+.icon:hover {
+  color: rgb(255, 51, 0);
+}
+
+.carousel-item{
+  padding: 3% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+#press {
+  background-color: #ef8176;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo {
+  margin: 12px 50px;
+  width: 10%;
+}
+#testimonial-carousel {
+  color: aliceblue;
+  text-align: center;
+  background-color: #ef8176;}
