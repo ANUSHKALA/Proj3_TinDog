@@ -2,11 +2,11 @@
     font-family: "Montserrat", sans-serif;
 }
 #container-fluid {
-  padding: 3% 15%;
+  padding: 3% 8% 0%;
 }
 #title {
   background-color: rgb(241, 10, 87);
-  padding-bottom: 300px;
+  padding-bottom:8%;
 }
 .navbar-brand {
     font-size: 2rem;
@@ -29,14 +29,16 @@
   font-size: 2rem;
 }
 .dog-image {
-    height: 80%;
-    left: 40%;
-    position: relative;
-    top: 25%;
+    height: 90%;
+    left: 60%;
+    position: absolute;
     transform: rotate(25deg);
+    z-index: 0;
 }
 #features{
-    padding: 7% 15%;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .feature-box {
@@ -84,4 +86,12 @@ h2 {
   background-color: #ef8176;}
   .card {
     margin: 2% ;
-  }
+}
+
+#pricing {
+  padding: 3% 12%;
+  text-align: center;
+}
+#cta {
+  text-align: center;
+}
