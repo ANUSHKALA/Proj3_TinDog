@@ -7,6 +7,7 @@
 #title {
   background-color: rgb(241, 10, 87);
   padding-bottom:8%;
+  text-align: center;
 }
 .navbar-brand {
     font-size: 2rem;
@@ -89,9 +90,36 @@ h2 {
 }
 
 #pricing {
-  padding: 3% 12%;
+  padding: 3% 9%;
   text-align: center;
 }
 #cta {
+  padding-bottom: 60px;
+  background-color: rgb(241, 10, 87);
+  margin-top: 10%;
   text-align: center;
+  color: aliceblue;
+ }
+
+#footer {
+  padding: 40px 0px 50px 0px;
+  color: rgb(35, 38, 41);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+#cta-head {
+  margin: 5%;
+}
+
+
+@media (max-width: 1028px){
+  .dog-image{
+    padding-top: 80px;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #features {
+    padding-top: 30%;
+  }
 }
