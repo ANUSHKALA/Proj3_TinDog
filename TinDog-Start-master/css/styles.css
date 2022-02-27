@@ -1,6 +1,10 @@
-.body {
+body {
     font-family: "Montserrat", sans-serif;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #container-fluid {
   padding: 3% 8% 0%;
 }
@@ -8,6 +12,12 @@
   background-color: rgb(241, 10, 87);
   padding-bottom:8%;
   text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .navbar-brand {
     font-size: 2rem;
@@ -62,12 +72,7 @@
   padding: 3% 15%;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
+
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
